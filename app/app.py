@@ -43,8 +43,8 @@ class CamApp(App):
 
         # Load tensorflow.keras model
         self.model = tf.keras.models.load_model(
-            # 'siamesemodel.h5',
-            'siamesemodelv2.h5',
+            'siamesemodel.h5',
+            # 'siamesemodelv2.h5',
             custom_objects={'L1Dist': L1Dist}
         )
 
@@ -85,8 +85,8 @@ class CamApp(App):
     # Verification function to verify person
     def verify(self, *args):
         # Specify threshold
-        detection_threshold = 0.5
-        verification_threshold = 0.8
+        detection_threshold = 0.8
+        verification_threshold = 0.4
 
         # Capture input image from webcam
         SAVE_PATH = os.path.join(

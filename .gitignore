@@ -4,4 +4,5 @@ data
 lfw
 training_checkpoints
 lfw.tgz
-paper.pdf
+siamesemodel.h5
+siamesemodelv2.h5
