@@ -1,6 +1,6 @@
 ** TODO List **
 1. Setup App Folder
-2. Install Kivy
+2. Install Kivy:    `pip install kivy[full] kivy_examples`
 3. Setup Validation Folder
 4. Create custom layer module
 5. Bring over h5 model
